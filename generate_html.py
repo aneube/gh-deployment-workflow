@@ -7,7 +7,7 @@ from datetime import datetime
 from pathlib import Path
 
 
-def generate_html(template_file='index.html.template', output_file='index.html'):
+def generate_html(template_file='index_template.md', output_file='index.md'):
     """Generate the index.html file dynamically from a template"""
     
     # Get current timestamp
