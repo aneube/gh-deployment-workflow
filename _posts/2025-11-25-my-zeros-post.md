@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My First Jekyll Post
+title: My Zero's Post
 author: Jane Doe
 ---
 
