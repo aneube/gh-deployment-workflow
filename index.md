@@ -9,17 +9,18 @@ This page was generated automatically by **Jekyll** from a Markdown file.
 
 This is my first paragraph of content.
 
-Generated at: 2025-11-26 19:47:32
+Generated at: 2025-11-26 19:52:05
 
 
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
 
+And this is another way:
 
 {% for post in site.posts %}
   <div class="post-preview">

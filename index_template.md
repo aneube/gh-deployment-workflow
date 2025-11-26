@@ -15,11 +15,12 @@ Generated at: {timestamp}
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
 
+And this is another way:
 
 {% for post in site.posts %}
   <div class="post-preview">
